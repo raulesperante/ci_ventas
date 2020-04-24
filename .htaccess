@@ -5,4 +5,4 @@ RewriteEngine on
 RewriteCond $1 !^(index\.php|images|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /CI_project/index.php/$1 [L,QSA]
+RewriteRule ^(.*)$ /ci_ventas/index.php/$1 [L,QSA]

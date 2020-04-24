@@ -1,0 +1,8 @@
+
+1. Configurar base de datos
+2. Crear .htaccess
+3. En config.php poner $config['index_page'] = '';
+4. En autoload.php poner $autoload['libraries'] = array('database', 'session'); 
+5. Modificar controlador a cargar por defecto:
+En routes.php: $route['default_controller'] = 'auth';
+base_url() = http://localhost/ci_ventas/
